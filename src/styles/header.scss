@@ -7,15 +7,10 @@
     grid-template-rows: 4fr 1fr;
     
     &__banner {
-        grid-area: span 1;
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
     }
 }
 
 .nav {
-    grid-area: span 1;
     display: flex;
     justify-content: center;
     align-items: center;
