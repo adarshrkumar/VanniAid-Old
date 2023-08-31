@@ -1,14 +1,14 @@
 @import './variables.scss';
 
 .header {
-    min-height: 12.5rem;
+    min-height: $header-min-height;
     
     display: grid;
     justify-items: center;
     grid-template-rows: $header-grid-template-rows;
     
     &__banner {
-        width: $header-width;
+        width: $header-items-width;
         display: flex;
         justify-content: center;
         img {
@@ -19,7 +19,7 @@
 
 .nav {
     background: $nav-bg;
-    width: $header-width;
+    width: $header-items-width;
 
     display: flex;
     justify-content: center;
