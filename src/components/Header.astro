@@ -1,10 +1,11 @@
 ---
 import '../styles/header.scss';
+const { image, alt } = Astro.props
 ---
 
 <header class="header">
-    <div class="header__banner" style="background-image: url('https://vanniaid.org/wp-content/uploads/2013/05/VanniAidBanner-May13.jpg')">
-
+    <div class="header__banner">
+        <img src={image} alt={alt} />
     </div>
     <nav class="nav">
         <div class="nav__list">
