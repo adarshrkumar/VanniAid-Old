@@ -24,7 +24,10 @@
         box-sizing: border-box;
     }
 
-    &__list {}
+    &__list {
+        display: flex;
+        gap: $nav-gap;
+    }
 
     &__btn {
         padding: 10px 15px;
