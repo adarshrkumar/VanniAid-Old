@@ -4,6 +4,7 @@
     min-height: 12.5rem;
     
     display: grid;
+    justify-items: center;
     grid-template-rows: 4fr 1fr;
     
     &__banner {
