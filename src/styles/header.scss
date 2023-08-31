@@ -6,6 +6,9 @@
     
     &__banner {
         grid-area: span 3;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 }
 
