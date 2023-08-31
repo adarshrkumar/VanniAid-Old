@@ -41,7 +41,7 @@
     &__btn {
         color: $nav-btn-text;
         height: 100%;
-        padding: 5px 10px;
+        padding: $nav-btn-padding;
         // outline: solid 1px red;
         font-size: $nav-btn-font-size;
         line-height: 1;
