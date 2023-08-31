@@ -7,6 +7,8 @@
     grid-template-rows: 4fr 1fr;
     
     &__banner {
+        display: flex;
+        justify-content: center;
         img {
             width: max(50%, 550px);
         }
