@@ -34,8 +34,11 @@
         padding: 5px 10px;
         outline: solid 1px red;
         font-size: 12pt;
-        background: $nav-btn-bg;
         line-height: 1;
+
+        &:hover, &:focus {
+            background: $nav-btn-bg;
+        }
     }
 }
 
