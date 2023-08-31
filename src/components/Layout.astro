@@ -31,7 +31,7 @@ const { title } = Astro.props as Props;
 			if (!!currPageI || currPageI == 0) {
 				let currPageEle = document.getElementsByClassName('nav__btn')[currPageI]
 				alert(currPageEle)
-				currPageEle.classlist.add('page__selected')
+				currPageEle.classList.add('page__selected')
 			}
 		</script>
 		<script>
