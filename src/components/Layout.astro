@@ -30,7 +30,7 @@ const { title } = Astro.props as Props;
 			});
 			if (!!currPageI || currPageI == 0) {
 				let currPageEle = links[currPageI]
-				alert('hi')
+				alert(currPageEle)
 				currPageEle.classlist.add('page__selected')
 			}
 		</script>
