@@ -1,3 +1,5 @@
+@import './variables.scss'
+
 .header {
     min-height: 12.5rem;
     
@@ -14,4 +16,13 @@
 
 .nav {
     grid-area: span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__list {}
+
+    &__btn {
+
+    }
 }
