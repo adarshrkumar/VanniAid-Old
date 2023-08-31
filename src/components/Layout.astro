@@ -28,8 +28,8 @@ const { title } = Astro.props as Props;
 				let lHref = l.href.split(location.host)[1]
 				if (lHref === pageName) currPageI = i 
 			});
-			alert(currPageI == 0)
 			if (!!currPageI || currPageI == 0) {
+				alert('hi')
 				let currPageEle = links[currPageI]
 				currPageEle.classlist.add('page__selected')
 			}
