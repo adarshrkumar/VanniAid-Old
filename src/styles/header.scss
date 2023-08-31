@@ -31,7 +31,7 @@
 
     &__btn {
         height: 100%;
-        #{$nav-btn-bg-prop}: $nav-btn-bg;
+        #{$nav-btn-bg-prop}: #{$nav-btn-bg};
         padding: 5px 10px;
         outline: solid 1px red;
         font-size: 12pt;
