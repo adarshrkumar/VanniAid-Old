@@ -23,7 +23,10 @@ const { title } = Astro.props as Props;
 		<script>
 			let pageName = location.pathname
 			let links = document.querySelectorAll('.nav__btn')
-			alert(links)
+			let currentPageI = false
+			links.forEach(function(l) {
+				alert(l.href)
+			});
 		</script>
 		<script>
 			javascript:(function () { var script = document.createElement('script'); script.src="//cdn.jsdelivr.net/npm/eruda"; document.body.appendChild(script); script.onload = function () { eruda.init() } })();
