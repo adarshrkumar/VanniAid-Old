@@ -6,6 +6,7 @@
     
     &__banner {
         grid-area: span 3;
+        background-image: attr(data-image url)
     }
 }
 

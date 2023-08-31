@@ -1,9 +1,10 @@
 ---
 import '../styles/header.scss';
+const {bgImage} = Astro.props
 ---
 
 <header class="header">
-    <div class="header__banner">
+    <div class="header__banner" data-image={bgImage}>
 
     </div>
     <nav class="nav">
