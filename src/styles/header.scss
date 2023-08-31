@@ -7,6 +7,9 @@
     grid-template-rows: 4fr 1fr;
     
     &__banner {
+        img {
+            width: max(50%, 550px);
+        }
     }
 }
 
@@ -21,4 +24,8 @@
         padding: 15px 10px;
         outline: solid 1px red;
     }
+}
+
+@media (width < 572px) {
+
 }
