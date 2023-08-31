@@ -25,7 +25,10 @@
     }
 
     &__list {
+        width: max(50%, 550px);
+
         display: flex;
+        justify-content: flex-start;
         gap: $nav-gap;
     }
 
