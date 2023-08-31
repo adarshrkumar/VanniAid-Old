@@ -48,6 +48,10 @@
         text-transform: uppercase;
         text-decoration: none;
 
+        &.page__selected {
+            font-weight: $nav-curr-btn-font-weight;
+        }
+
         &:hover, &:focus {
             background: $nav-btn-bg;
             color: lighten($nav-btn-text, $nav-btn-hover-lighten-amt)
