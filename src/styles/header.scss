@@ -25,6 +25,8 @@
     }
 
     &__list {
+        background: lch(5% 0 180);
+
         width: max(50%, 550px);
         padding-inline: 2rem;
 
