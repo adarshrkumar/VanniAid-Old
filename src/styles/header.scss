@@ -2,10 +2,10 @@
     min-height: 12.5rem;
     
     display: grid;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: 3fr 1fr;
     
     &__banner {
-        grid-area: span 3;
+        grid-area: span 1;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
