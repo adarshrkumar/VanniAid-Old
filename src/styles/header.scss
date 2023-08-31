@@ -10,14 +10,14 @@
         display: flex;
         justify-content: center;
         img {
-            width: max(50%, 550px);
+            width: $header-width
         }
     }
 }
 
 .nav {
     background: $nav-bg;
-    width: max(50%, 550px);
+    width: $header-width;
 
     display: flex;
     justify-content: center;
