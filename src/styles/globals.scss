@@ -17,8 +17,8 @@
 }
 
 html {
-  background: var(--color-bg);
-  color: var(--color-text);
+  background: $site-background;
+  color: $site-color;
 
   font-family: var(--main-family);
   font-family: var(--font-family, system-ui), sans-serif;
