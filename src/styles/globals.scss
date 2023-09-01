@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 5px;
 
   min-height: 100dvh;
 
@@ -27,7 +27,7 @@ body {
 
 main {
   flex: 1;
-  
+
   box-sizing: border-box;
   margin-inline: auto;
   padding: $main-padding;
