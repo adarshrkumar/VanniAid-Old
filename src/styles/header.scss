@@ -12,6 +12,7 @@
         content: '';
         position: absolute;
         top: 100%;
+        width: $site-items-width;
         height: 5px;
         background-image: linear-gradient($nav-bg, transparent);
     }
