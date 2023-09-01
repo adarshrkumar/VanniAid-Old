@@ -8,8 +8,7 @@
     justify-items: center;
     grid-template-rows: $header-grid-template-rows;
 
-    &::after {
-        content: '';
+    &__gradient {
         position: absolute;
         top: 100%;
         width: $site-items-width;
