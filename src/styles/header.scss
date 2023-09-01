@@ -1,13 +1,19 @@
 @import './variables.scss';
 
 .header {
+    position: relative;
     min-height: $header-min-height;
     
     display: grid;
     justify-items: center;
     grid-template-rows: $header-grid-template-rows;
-    box-shadow: $nav-bg 0px 5px 5px;
-      
+
+    &::after {
+        content: '';
+        height: 5px;
+        background-image: linear-gradient($nav-bg, transparent);
+    }
+
     &__banner {
         width: $site-items-width;
         display: flex;
