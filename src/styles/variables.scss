@@ -1,12 +1,11 @@
 // global
 $site-background: #993333;
 $site-color: lch(5% 0 180);
+$site-items-width: max(50%, 550px);
 
 // header
 $header-min-height: 12.5rem;
 $header-grid-template-rows: 4fr 1fr;
-
-$header-items-width: max(50%, 550px);
 
 // nav
 $nav-gap: 0;//25px;
