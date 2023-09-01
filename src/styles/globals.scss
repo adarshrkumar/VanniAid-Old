@@ -34,7 +34,7 @@ main {
 }
 
 .page-title {
-  font-size: 2rem;
+  font-size: $page-title-font-size;
   margin-block-start: 0;
   padding-block-start: 0.67em;
   text-transform: uppercase;
