@@ -51,7 +51,7 @@ main {
 
 .page-description {
   font-size: 11pt;
-  color: lighten($main-color, 10%)
+  color: lch(10% 0 180)
 }
 
 code {
