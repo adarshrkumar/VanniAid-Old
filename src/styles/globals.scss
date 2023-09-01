@@ -33,6 +33,11 @@ body {
   min-height: 100dvh;
 }
 
+main {
+  background: $main-background;
+  color: $main-color;
+}
+
 h1 {
   font-size: var(--font-size-xl);
 }
