@@ -29,6 +29,11 @@ main {
   width: $site-items-width;
 }
 
+.page-title {
+  margin-block-start: 0;
+  padding-block-start: 0.67em;
+}
+
 code {
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
