@@ -13,7 +13,7 @@
         top: 100%;
         width: $site-items-width;
         height: 5px;
-        background-image: linear-gradient($nav-bg, lighten($nav-bg, 100%));
+        background-image: linear-gradient($nav-bg, lch(5% 0 180));
     }
 
     &__banner {
