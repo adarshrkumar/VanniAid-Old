@@ -23,6 +23,7 @@ body {
 }
 
 main {
+  box-sizing: border-box;
   margin-inline: auto;
   padding-inline: $main-padding-inline;
 
