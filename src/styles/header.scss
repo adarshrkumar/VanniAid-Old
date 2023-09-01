@@ -6,7 +6,8 @@
     display: grid;
     justify-items: center;
     grid-template-rows: $header-grid-template-rows;
-    box-shadow: $nav-bg 0px 5px 5px;    
+    box-shadow: $nav-bg 0px 5px 5px;
+      
     &__banner {
         width: $site-items-width;
         display: flex;
