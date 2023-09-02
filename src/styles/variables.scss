@@ -12,7 +12,8 @@ $header-grid-template-rows: 4fr 1fr;
 
 // nav
 $nav-gap: 0;//25px;
-$nav-bg: linear-gradient(lch(15% 0 180), lch(5% 0 180));
+$nav-bg-end: lch(5% 0 180);
+$nav-bg: linear-gradient(lch(15% 0 180), $nav-bg-end);
 
 // nav button
 $nav-btn-padding: 5px 10px;
