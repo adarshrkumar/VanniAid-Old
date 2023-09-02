@@ -17,7 +17,7 @@
     }
 
     &__banner {
-        width: $site-items-width;
+        max-width: $site-items-width;
         display: flex;
         justify-content: center;
         img {
@@ -28,7 +28,7 @@
 
 .nav {
     background: $nav-bg;
-    width: $site-items-width;
+    max-width: $site-items-width;
 
     display: flex;
     justify-content: center;
