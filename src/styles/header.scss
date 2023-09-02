@@ -2,7 +2,10 @@
 
 .header {
     position: relative;
+    margin-inline: auto;
+
     min-height: $header-min-height;
+    max-width: $site-items-width;
     
     display: grid;
     justify-items: center;
@@ -12,12 +15,12 @@
         background-image: linear-gradient($nav-bg, lch(5% 0 180));
         position: absolute;
         top: 100%;
-        width: $site-items-width;
+        width: 100%;
         height: 5px;
     }
 
     &__banner {
-        max-width: $site-items-width;
+        width: 100%;
         display: flex;
         justify-content: center;
         img {
@@ -28,7 +31,7 @@
 
 .nav {
     background: $nav-bg;
-    max-width: $site-items-width;
+    max-width: 100%;
 
     display: flex;
     justify-content: center;
