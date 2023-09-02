@@ -12,7 +12,7 @@
     grid-template-rows: $header-grid-template-rows;
 
     &__gradient {
-        background-image: linear-gradient($nav-bg-end, lch(5% 0 180));
+        background-image: linear-gradient($nav-bg-end, lch(100% 0 180));
         position: absolute;
         top: 100%;
         width: 100%;
