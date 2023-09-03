@@ -17,11 +17,9 @@ html {
 }
 
 body {
-  box-sizing: border-box;
-
   margin: 10px;
 
-  min-height: calc(100dvh);
+  min-height: calc(100dvh - 20px);
 
   display: flex;
   flex-direction: column;
