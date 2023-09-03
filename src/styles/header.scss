@@ -8,6 +8,7 @@
     width: $site-items-width;
     
     display: flex;
+    flex-direction: column;
 
     &__gradient {
         flex: 1;
