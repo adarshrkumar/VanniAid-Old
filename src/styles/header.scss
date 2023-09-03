@@ -73,7 +73,7 @@
 
         &:hover, &:focus {
             background: $nav-btn-bg;
-            color: lighten($nav-btn-text, $nav-btn-hover-lighten-amt)
+            color: darken($nav-btn-text, $nav-btn-hover-darken-amt)
         }
     }
 }
