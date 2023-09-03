@@ -6,6 +6,7 @@
 
     min-height: $header-min-height;
     width: $site-items-width;
+    max-width: 100%;
     
     display: flex;
     flex-direction: column;
