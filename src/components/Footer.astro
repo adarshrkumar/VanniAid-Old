@@ -1,0 +1,9 @@
+---
+import '../styles/footer.scss';
+const { siteName } = Astro.props
+let currentYear = new Date().getFullYear()
+
+---
+<footer class="footer">
+    <span>© {currentYear} {siteName}</span> | <span>Design by Tina Wendon</span> | <span>Web empowerment by Concept Compass</span>
+</footer>

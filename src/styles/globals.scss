@@ -51,9 +51,9 @@ main {
   text-transform: uppercase;
 }
 
-.page-description {
-  font-size: 11pt;
-  line-height: $page-description-line-height;
+.page-description, .content p {
+  font-size: $page-content-font-size;
+  line-height: $page-content-line-height;
 }
 
 code {
