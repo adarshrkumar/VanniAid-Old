@@ -1,12 +1,10 @@
-name: npm audit fix
+name: log thangs
 
 on: push
 jobs:
-  npm_audit_fix:
-    name: npm audit fix
+  log_thangs:
+    name: log thangs
     runs-on: ubuntu-latest
     steps:
     - run: echo "This is running inside a ${{ runner.os }} server in GitHub"
     - run: echo "This repo is ${{ github.repository }} .."
-    - name: Run npm audit fix
-      run: npm audit
