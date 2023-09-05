@@ -52,14 +52,15 @@ main {
 }
 
 .page-description, .content p {
-  font-size: $page-content-font-size;
-  line-height: $page-content-line-height;
+  font-size: $content-font-size;
+  line-height: $content-line-height;
 }
 
 .content {
+  margin-block-start: $content-gap;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: $content-gap;
 
   p {
     margin-block: 0;
