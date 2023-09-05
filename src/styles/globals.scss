@@ -41,6 +41,7 @@ main {
 
 .page-title {
   margin-block-start: 0;
+  padding-block-end: $page-title-padding-block-end;
 
   color: $site-background;
 
