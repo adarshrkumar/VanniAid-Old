@@ -1,6 +1,7 @@
 name: npm audit fix
-  on: push
-  jobs:
+
+on: push
+jobs:
   npm_audit_fix:
     name: npm audit fix
     runs-on: ubuntu-latest
