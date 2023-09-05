@@ -1,7 +1,8 @@
 // global
 $site-background: #993333;
+$site-main-margin: 0.0625rem;
 $site-color: lch(5% 0 180);
-$site-items-width: 700px;
+$site-items-width: 43.75rem;
 
 $page-title-font-size: 1.5rem;
 $page-title-font-weight: normal;
@@ -10,13 +11,13 @@ $page-title-font-weight: normal;
 $header-min-height: 12.5rem;
 
 // nav
-$nav-gap: 0;//25px;
+$nav-gap: 0;//1.5625;
 $nav-bg-end: lch(5% 0 180);
 $nav-bg: linear-gradient(lch(15% 0 180), $nav-bg-end);
 $nav-gradient-start: rgba(0, 0, 0, 0.4);
 
 // nav button
-$nav-btn-padding: 5px 10px;
+$nav-btn-padding: 0.03125re, 0.0625rem;
 $nav-btn-bg: linear-gradient(white, lightgray);
 $nav-btn-text: white;
 $nav-btn-hover-darken-amt: 90%;
@@ -27,7 +28,7 @@ $nav-curr-btn-font-weight: bold;
 // main
 $main-background: white;
 $main-color: lch(25% 0 180);
-$main-padding: max(3.75%, 30px);
+$main-padding: min(3.275rem, 7%);
 
 // page title
 $page-title-padding-block-end: 1em;
