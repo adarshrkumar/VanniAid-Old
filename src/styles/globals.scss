@@ -56,6 +56,16 @@ main {
   line-height: $page-content-line-height;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  p {
+    margin-block: 0;
+  }
+}
+
 code {
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
