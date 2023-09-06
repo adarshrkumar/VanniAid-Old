@@ -36,25 +36,20 @@
 }
 
 .nav {
-    background: $nav-bg;
+    box-sizing: border-box;
+    padding-inline: 2rem;
     min-height: 40px;
     width: 100%;
 
+    background: $nav-bg;
+
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    gap: $nav-gap;
 
-    *  {
+    & > *  {
         box-sizing: border-box;
-    }
-
-    &__list {
-        width: 100%;
-        padding-inline: 2rem;
-
-        display: flex;
-        justify-content: flex-start;
-        gap: $nav-gap;
     }
 
     &__btn {
