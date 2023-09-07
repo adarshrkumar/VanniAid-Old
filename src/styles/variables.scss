@@ -22,7 +22,7 @@ $nav-btn-bg: linear-gradient(white, lightgray);
 $nav-btn-text: white;
 $nav-btn-hover-darken-amt: 90%;
 
-$nav-btn-font-size: 11pt;
+$nav-btn-font-size: 0.9375rem;
 $nav-curr-btn-font-weight: bold;
 
 // main
@@ -34,6 +34,10 @@ $main-padding: min(3.275rem, 7%);
 $page-title-padding-block-end: 1em;
 
 // content
-$content-font-size: 11pt;
+$content-font-size: 0.9375rem;
 $content-line-height: 1.5;
 $content-gap: 1.5rem;
+
+// footer
+$footer-padding: 1rem;
+$footer-font-size: 0.9375rem;

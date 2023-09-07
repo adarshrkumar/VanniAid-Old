@@ -2,9 +2,14 @@
 
 .footer {
     margin-inline: auto;
-    padding: 1rem;
+    padding: $footer-padding;
+
     max-width: 100%;
     width: $main-background;
+
     background-color: $main-background;
+    color: $main-color;
+
     text-align: center;
+    font-size: $footer-font-size;
 }
