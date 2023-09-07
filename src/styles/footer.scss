@@ -1,1 +1,6 @@
 @import './variables.scss';
+
+.footer {
+    margin-inline: auto;
+    max-width: $site-items-width;
+}
