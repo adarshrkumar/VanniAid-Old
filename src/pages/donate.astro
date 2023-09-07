@@ -10,7 +10,7 @@ import Layout from '../layouts/Layout.astro';
                 Donations up to $10,000 are accepted by credit card or via PayPal.
             </p>
             <p>
-                <a href="/donate">
+                <a href="https://www.paypal.com/donate" class="donate large">
                     <img class="donate__image" src="/assets/VanniAidDONATE.jpg" alt="Donate to Vanni Aid" />
                 </a>
             </p>
@@ -50,4 +50,7 @@ import Layout from '../layouts/Layout.astro';
             </p>
         </section>
     </main>
+    <script>
+        document.querySelector('.donate').href = `${document.querySelector('.donate').href}?token=eDB38adzpiZ7moMNzfT-cflaBFhHqYa7y7QSU3ZeBC0MYeDQNRLIs93PLnKSqwWPF1ZzaI14aJ87aAty`
+    </script>
 </Layout>

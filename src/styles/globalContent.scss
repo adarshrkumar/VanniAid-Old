@@ -1,7 +1,6 @@
-.donate__image {
-    max-width: 7.0625rem;
-}
-
-a[href="/donate"] {
+.donate {
     display: inline-block;
+    &__image {
+        max-width: 7.0625rem;
+    }
 }
