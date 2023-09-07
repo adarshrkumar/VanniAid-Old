@@ -1,11 +1,11 @@
 @import './variables.scss';
 
 .footer {
-    margin-inline: auto;
+    margin-inline: calc(auto + 10px);
     padding: $footer-padding;
 
     max-width: 100%;
-    width: $site-items-width;
+    width: calc($site-items-width - 0.625rem*2);
 
     background-color: $main-background;
     color: $footer-color;
